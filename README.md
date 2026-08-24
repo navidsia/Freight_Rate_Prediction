@@ -57,3 +57,6 @@ Alternatively, download the IPYNB file and run it locally using Jupyter Notebook
 - October MAE: $94.991
 - Combined MAE: $87.351
 - Combined MAE with both market signals hidden: $99.473
+
+
+The PowerPoint model diagram is included in this repository and provides a visual explanation of the final model architecture and prediction workflow.
