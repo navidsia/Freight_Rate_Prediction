@@ -23,7 +23,7 @@ After model selection, the final model is trained again using all 48,000 labeled
 
 ## Run in Google Colab
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GITHUB_USERNAME/REPOSITORY_NAME/blob/main/Freight_Rate_Prediction_final_submission.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/navidsia/Freight_Rate_Prediction/blob/main/Freight_Rate_Prediction_final_submission.ipynb)
 1. Open the Google Colab link above.
 2. Open the input_files folder in this GitHub repository.
 3. Download these six files:
