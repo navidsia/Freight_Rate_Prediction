@@ -14,17 +14,13 @@ The final model combines a daily-context boosted-residual model, a histogram gra
 
 After model selection, the final model is trained again using all 48,000 labeled rows before predicting the 12,000 final validation rows.
 
-## Internal validation results
-
-- September MAE: $79.411
-- October MAE: $94.991
-- Combined MAE: $87.351
-- Combined MAE with both market signals hidden: $99.473
-
-## Run in Google Colab
+## Run instructions
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/navidsia/Freight_Rate_Prediction/blob/main/Freight_Rate_Prediction_final_submission.ipynb)
-1. Open the Google Colab link above.
+
+### Google Colab
+
+1. Click the Open in Colab button above.
 2. Open the input_files folder in this GitHub repository.
 3. Download these six files:
 
@@ -36,7 +32,7 @@ After model selection, the final model is trained again using all 48,000 labeled
    - score.py
 
 4. In Google Colab, click the folder icon on the left to open the Files section.
-5. Upload all six files directly into the Files section. (not the input_files folder)
+5. Upload all six files directly into the Files section. Upload the files themselves, not the input_files folder.
 6. Select Runtime and then Run all.
 7. Wait for preprocessing, model training, evaluation and prediction to finish.
 
@@ -52,5 +48,24 @@ The december_outputs.zip file contains:
 - december_predictions.csv
 - candidate_december.png
 
-The final validation_predictions.csv file contains load_id and predicted_rate
+The final validation_predictions.csv file contains the load_id and predicted_rate columns.
 
+### Local execution
+
+The notebook can also be downloaded from this repository and executed locally with Jupyter Notebook, JupyterLab, VS Code, Anaconda or another application that supports IPYNB files.
+
+1. Download Freight_Rate_Prediction_final_submission.ipynb.
+2. Download the six files from the input_files folder.
+3. Place the notebook and all six files in the same directory.
+4. Open the notebook in a Python environment with Jupyter support.
+5. Run all cells in order.
+
+The notebook installs the required packages using requirements.txt and saves the generated prediction and chart files in the working directory.
+
+
+## Internal validation results
+
+- September MAE: $79.411
+- October MAE: $94.991
+- Combined MAE: $87.351
+- Combined MAE with both market signals hidden: $99.473
