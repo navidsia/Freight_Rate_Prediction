@@ -47,6 +47,7 @@ The december_outputs.zip file contains:
 - candidate_december.png
 
 The final validation_predictions.csv file contains the load_id and predicted_rate columns.
+(december_predictions.csv, candidate_december.png, and validation_predictions.csv are available in Results folder)
 
 Alternatively, download the IPYNB file and run it locally using Jupyter Notebook, JupyterLab, VS Code, Anaconda or another application that supports IPYNB files, with the six required files placed in the same directory.
 
