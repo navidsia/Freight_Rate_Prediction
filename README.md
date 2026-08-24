@@ -53,7 +53,5 @@ The december_outputs.zip file contains:
 - december_predictions.csv
 - candidate_december.png
 
-The final validation_predictions.csv file contains exactly:
+The final validation_predictions.csv file contains load_id and predicted_rate
 
-```text
-load_id,predicted_rate
