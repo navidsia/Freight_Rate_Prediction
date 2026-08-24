@@ -18,8 +18,6 @@ After model selection, the final model is trained again using all 48,000 labeled
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/navidsia/Freight_Rate_Prediction/blob/main/Freight_Rate_Prediction_final_submission.ipynb)
 
-### Google Colab
-
 1. Click the Open in Colab button above.
 2. Open the input_files folder in this GitHub repository.
 3. Download these six files:
@@ -50,18 +48,7 @@ The december_outputs.zip file contains:
 
 The final validation_predictions.csv file contains the load_id and predicted_rate columns.
 
-### Local execution
-
-The notebook can also be downloaded from this repository and executed locally with Jupyter Notebook, JupyterLab, VS Code, Anaconda or another application that supports IPYNB files.
-
-1. Download Freight_Rate_Prediction_final_submission.ipynb.
-2. Download the six files from the input_files folder.
-3. Place the notebook and all six files in the same directory.
-4. Open the notebook in a Python environment with Jupyter support.
-5. Run all cells in order.
-
-The notebook installs the required packages using requirements.txt and saves the generated prediction and chart files in the working directory.
-
+Alternatively, download the IPYNB file and run it locally using Jupyter Notebook, JupyterLab, VS Code, Anaconda or another application that supports IPYNB files, with the six required files placed in the same directory.
 
 ## Internal validation results
 
